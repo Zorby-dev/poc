@@ -1,0 +1,91 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "pasm",
+	"patterns": [
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#macro"
+		},
+		{
+			"include": "#instruction"
+		},
+		{
+			"include": "#label"
+		},
+		{
+			"include": "#register"
+		},
+		{
+			"include": "#immediate"
+		}
+	],
+	"repository": {
+		"comment": {
+			"name": "comment.line.pasm",
+			"match": ";.*"
+		},
+		"register": {
+			"name": "variable.language.register.pasm",
+			"match": "\\b(?:rx|ry|rz)\\b"
+		},
+		"macro": {
+			"name": "keyword.control.directive.macro.pasm",
+			"match": "%[a-zA-z_]\\w*"
+		},
+		"label": {
+			"name": "entity.name.label.pasm",
+			"match": "[a-zA-Z_]\\w*(?=:)"
+		},
+		"instruction": {
+			"name": "entity.name.function.pasm",
+			"match": "(?<=\\s)(nop|put|str|hlt|ldr|jpz|inc|jmp|sub|add|jpn|psh|pop|dec)(?=\\s+[^\\s,:])"
+		},
+		"immediate": {
+			"patterns": [
+				{
+					"include": "#word"
+				},
+				{
+					"include": "#string"
+				},
+				{
+					"include": "#character"
+				},
+				{
+					"include": "#number"
+				}
+			]
+		},
+		"word": {
+			"name": "variable.other.pasm",
+			"match": "\\b[a-zA-Z_]\\w*\\b"
+		},
+		"string": {
+			"name": "string.quoted.double.pasm",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape",
+					"match": "\\\\."
+				}
+			]
+		},
+		"character": {
+			"name": "constant.character.pasm",
+			"match": "'(?:(\\\\.)|[^'\\\\])'",
+			"captures": {
+				"1": {
+					"name": "constant.character.escape.pasm"
+				}
+			}
+		},
+		"number": {
+			"name": "constant.numeric.pasm",
+			"match": "\\b(?:(0b)[0-1_]+|(0[oq])[0-7_]+|(0d)?[0-9_]+|(0[xh])[0-9a-fA-F_]+)\\b"
+		}
+	},
+	"scopeName": "source.pasm"
+}

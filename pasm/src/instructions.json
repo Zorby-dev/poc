@@ -1,0 +1,330 @@
+{
+    "nop": {
+        "signatures": [
+            {
+                "arguments": [ ],
+                "code": 0
+            }
+        ]
+    },
+    "put": {
+        "signatures": [
+            {
+                "arguments": [ "rx", "im" ],
+                "code": 1
+            },
+            {
+                "arguments": [ "ry", "im" ],
+                "code": 5
+            },
+            {
+                "arguments": [ "rz", "im" ],
+                "code": 20
+            },
+            {
+                "arguments": [ "rx", "rz" ],
+                "code": 26
+            },
+            {
+                "arguments": [ "rx", "ry" ],
+                "code": 35
+            },
+            {
+                "arguments": [ "rz", "rx" ],
+                "code": 47
+            },
+            {
+                "arguments": [ "ry", "rx" ],
+                "code": 52
+            }
+        ]
+    },
+    "str": {
+        "signatures": [
+            {
+                "arguments": [ "im", "rx" ],
+                "code": 2
+            },
+            {
+                "arguments": [ "rx", "ry" ],
+                "code": 16
+            },
+            {
+                "arguments": [ "im", "ry" ],
+                "code": 17
+            },
+            {
+                "arguments": [ "im", "rz" ],
+                "code": 32
+            },
+            {
+                "arguments": [ "rz", "rx" ],
+                "code": 62
+            }
+        ]
+    },
+    "hlt": {
+        "signatures": [
+            {
+                "arguments": [ ],
+                "code": 3
+            }
+        ]
+    },
+    "ldr": {
+        "signatures": [
+            {
+                "arguments": [ "rx", "im" ],
+                "code": 4
+            },
+            {
+                "arguments": [ "rx", "ry" ],
+                "code": 6
+            },
+            {
+                "arguments": [ "ry", "im" ],
+                "code": 13
+            },
+            {
+                "arguments": [ "ry", "rx" ],
+                "code": 29
+            },
+            {
+                "arguments": [ "rz", "im" ],
+                "code": 50
+            },
+            {
+                "arguments": [ "ry", "ry" ],
+                "code": 63
+            }
+        ]
+    },
+    "jpz": {
+        "signatures": [
+            {
+                "arguments": [ "im", "rx" ],
+                "code": 7
+            },
+            {
+                "arguments": [ "im", "ry" ],
+                "code": 12
+            },
+            {
+                "arguments": [ "im", "rz" ],
+                "code": 25
+            }
+        ]
+    },
+    "inc": {
+        "signatures": [
+            {
+                "arguments": [ "ry" ],
+                "code": 8
+            },
+            {
+                "arguments": [ "rx" ],
+                "code": 10
+            },
+            {
+                "arguments": [ "rz" ],
+                "code": 21
+            }
+        ]
+    },
+    "jmp": {
+        "signatures": [
+            {
+                "arguments": [ "im" ],
+                "code": 9
+            },
+            {
+                "arguments": [ "ry" ],
+                "code": 23
+            },
+            {
+                "arguments": [ "rx" ],
+                "code": 28
+            },
+            {
+                "arguments": [ "rz" ],
+                "code": 40
+            }
+        ]
+    },
+    "sub": {
+        "signatures": [
+            {
+                "arguments": [ "ry", "rx" ],
+                "code": 11
+            },
+            {
+                "arguments": [ "rx", "ry" ],
+                "code": 14
+            },
+            {
+                "arguments": [ "ry", "rz" ],
+                "code": 33
+            },
+            {
+                "arguments": [ "rz", "rx" ],
+                "code": 41
+            },
+            {
+                "arguments": [ "rx", "rz" ],
+                "code": 49
+            },
+            {
+                "arguments": [ "rz", "im" ],
+                "code": 55
+            },
+            {
+                "arguments": [ "rz", "ry" ],
+                "code": 57
+            }
+        ]
+    },
+    "add": {
+        "signatures": [
+            {
+                "arguments": [ "rx", "ry" ],
+                "code": 15
+            },
+            {
+                "arguments": [ "rz", "rx" ],
+                "code": 30
+            },
+            {
+                "arguments": [ "ry", "rz" ],
+                "code": 34
+            },
+            {
+                "arguments": [ "ry", "rx" ],
+                "code": 54
+            },
+            {
+                "arguments": [ "rz", "im" ],
+                "code": 56
+            },
+            {
+                "arguments": [ "rx", "rz" ],
+                "code": 58
+            },
+            {
+                "arguments": [ "rz", "ry" ],
+                "code": 60
+            }
+        ]
+    },
+    "jpn": {
+        "signatures": [
+            {
+                "arguments": [ "im", "rx" ],
+                "code": 18
+            },
+            {
+                "arguments": [ "im", "ry" ],
+                "code": 37
+            }
+        ]
+    },
+    "psh": {
+        "signatures": [
+            {
+                "arguments": [ "im" ],
+                "code": 19
+            },
+            {
+                "arguments": [ "rx" ],
+                "code": 24
+            },
+            {
+                "arguments": [ "ry" ],
+                "code": 36
+            },
+            {
+                "arguments": [ "rz" ],
+                "code": 48
+            }
+        ]
+    },
+    "pop": {
+        "signatures": [
+            {
+                "arguments": [ "ry" ],
+                "code": 22
+            },
+            {
+                "arguments": [ "rx" ],
+                "code": 27
+            },
+            {
+                "arguments": [ "rz" ],
+                "code": 39
+            }
+        ]
+    },
+    "dec": {
+        "signatures": [
+            {
+                "arguments": [ "ry" ],
+                "code": 31
+            },
+            {
+                "arguments": [ "rx" ],
+                "code": 38
+            },
+            {
+                "arguments": [ "rz" ],
+                "code": 42
+            }
+        ]
+    },
+    "neg": {
+        "signatures": [
+            {
+                "arguments": [ "rx" ],
+                "code": 43
+            },
+            {
+                "arguments": [ "ry" ],
+                "code": 44
+            },
+            {
+                "arguments": [ "rz" ],
+                "code": 45
+            }
+        ]
+    },
+    "ret": {
+        "signatures": [
+            {
+                "arguments": [ ],
+                "code": 46
+            }
+        ]
+    },
+    "and": {
+        "signatures": [
+            {
+                "arguments": [ "rz", "im" ],
+                "code": 51
+            },
+            {
+                "arguments": [ "ry", "im" ],
+                "code": 53
+            },
+            {
+                "arguments": [ "rx", "im" ],
+                "code": 59
+            }
+        ]
+    },
+    "or": {
+        "signatures": [
+            {
+                "arguments": [ "rx", "ry" ],
+                "code": 61
+            }
+        ]
+    }
+}

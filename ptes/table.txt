@@ -1,0 +1,246 @@
+null
+lowercase a
+lowercase b
+lowercase c
+lowercase d
+lowercase e
+lowercase f
+lowercase g
+lowercase h
+lowercase i
+lowercase j
+lowercase k
+lowercase l
+lowercase m
+lowercase n
+lowercase o
+lowercase p
+lowercase q
+lowercase r
+lowercase s
+lowercase t
+lowercase u
+lowercase v
+lowercase w
+lowercase x
+lowercase y
+lowercase z
+lowercase a acute
+lowercase c caron
+lowercase d caron
+lowercase e acute
+lowercase e caron
+lowercase i acute
+lowercase n caron
+lowercase o acute
+lowercase r caron
+lowercase s caron
+lowercase t caron
+lowercase u acute
+lowercase u ring
+lowercase y acute
+lowercase z caron
+uppercase a
+uppercase b
+uppercase c
+uppercase d
+uppercase e
+uppercase f
+uppercase g
+uppercase h
+uppercase i
+uppercase j
+uppercase k
+uppercase l
+uppercase m
+uppercase n
+uppercase o
+uppercase p
+uppercase q
+uppercase r
+uppercase s
+uppercase t
+uppercase u
+uppercase v
+uppercase w
+uppercase x
+uppercase y
+uppercase z
+uppercase a acute
+uppercase c caron
+uppercase d caron
+uppercase e acute
+uppercase e caron
+uppercase i acute
+uppercase n caron
+uppercase o acute
+uppercase r caron
+uppercase s caron
+uppercase t caron
+uppercase u acute
+uppercase u ring
+uppercase y acute
+uppercase z caron
+zero
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+underscore
+space
+plus
+minus
+star
+slash
+backslash
+caret
+bullet
+dot
+comma
+colon
+semicolon
+question mark
+exclamation mark
+single low quote
+single quote
+double low quote
+double quote
+left arrow
+right arrow
+left double arrow
+right double arrow
+opening round bracket
+closing round bracket
+opening square bracket
+closing square bracket
+opening curly bracket
+closing curly bracket
+at
+hash
+percent
+ampersand
+equal
+tilde
+box outline
+box filled
+border edge left
+border edge right
+border edge top
+border edge bottom
+border vertex top left
+border vertex top right
+border vertex bottom left
+border vertex bottom right
+border round vertex top left
+border round vertex top right
+border round vertex bottom left
+border round vertex bottom right
+border edge left filled
+border edge right filled
+border edge top filled
+border edge bottom filled
+border vertex top left filled
+border vertex top right filled
+border vertex bottom left filled
+border vertex bottom right filled
+border round vertex top left filled
+border round vertex top right filled
+border round vertex bottom left filled
+border round vertex bottom right filled
+lowercase a filled
+lowercase b filled
+lowercase c filled
+lowercase d filled
+lowercase e filled
+lowercase f filled
+lowercase g filled
+lowercase h filled
+lowercase i filled
+lowercase j filled
+lowercase k filled
+lowercase l filled
+lowercase m filled
+lowercase n filled
+lowercase o filled
+lowercase p filled
+lowercase q filled
+lowercase r filled
+lowercase s filled
+lowercase t filled
+lowercase u filled
+lowercase v filled
+lowercase w filled
+lowercase x filled
+lowercase y filled
+lowercase z filled
+lowercase a acute filled
+lowercase c caron filled
+lowercase d caron filled
+lowercase e acute filled
+lowercase e caron filled
+lowercase i acute filled
+lowercase n caron filled
+lowercase o acute filled
+lowercase r caron filled
+lowercase s caron filled
+lowercase t caron filled
+lowercase u acute filled
+lowercase u ring filled
+lowercase y acute filled
+lowercase z caron filled
+uppercase a filled
+uppercase b filled
+uppercase c filled
+uppercase d filled
+uppercase e filled
+uppercase f filled
+uppercase g filled
+uppercase h filled
+uppercase i filled
+uppercase j filled
+uppercase k filled
+uppercase l filled
+uppercase m filled
+uppercase n filled
+uppercase o filled
+uppercase p filled
+uppercase q filled
+uppercase r filled
+uppercase s filled
+uppercase t filled
+uppercase u filled
+uppercase v filled
+uppercase w filled
+uppercase x filled
+uppercase y filled
+uppercase z filled
+uppercase a acute filled
+uppercase c caron filled
+uppercase d caron filled
+uppercase e acute filled
+uppercase e caron filled
+uppercase i acute filled
+uppercase n caron filled
+uppercase o acute filled
+uppercase r caron filled
+uppercase s caron filled
+uppercase t caron filled
+uppercase u acute filled
+uppercase u ring filled
+uppercase y acute filled
+uppercase z caron filled
+zero filled
+one filled
+two filled
+three filled
+four filled
+five filled
+six filled
+seven filled
+eight filled
+nine filled
